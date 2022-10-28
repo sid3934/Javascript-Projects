@@ -1,0 +1,57 @@
+h1, h2, h3, h4, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+
+}
+header{
+    padding: 50px;
+    background-color: cornflowerblue;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main{
+    max-width: 100%;
+    padding: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+main form{
+    width: 40%;
+}
+main article{
+    width: 40%;
+}
+h1, h2, h3, h4{
+    margin-bottom: 1em;
+
+}
+#title{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 1em;
+}
+input, textarea, #destination_details_form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#destinations_container{
+    background-color: rgba(180, 183, 228, 0.877);
+    display: block;
+    justify-content: space-around;
+}
